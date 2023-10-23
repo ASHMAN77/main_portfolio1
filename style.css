@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.navbar {
+    background-color: purple;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links li a:hover {
+    color: #ffc107; /* Change to the desired hover color */
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background-image: url('./img.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.purple-button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.purple-button:hover {
+    background-color: #8a2be2; /* Change to the desired hover color */
+}
+
+
+
+.feature-section {
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+
+.purple-bg {
+    background-color: purple;
+}
+
+.light-purple-bg {
+    background-color: #8a2be2; /* Lighter shade of purple */
+}
+
+.dark-purple-bg {
+    background-color: #4b0082; /* Darker shade of purple */
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature {
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 10px;
+    max-width: 300px;
+}
+
+.icon {
+    font-size: 36px;
+    color: purple;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.buttons-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pricing-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.pricing-card {
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    max-width: 300px;
+}
+
+.pricing-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: purple;
+}
+
+.price {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: purple;
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.features-list li {
+    margin: 10px 0;
+}
+
+.purple-button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.purple-button:hover {
+    background-color: #8a2be2; /* Change to the desired hover color */
+}
+
+.footer {
+    background-image: url('footer2.jpeg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.footer-content {
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+.animetion{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: purple;
+}
+
+.animetion-2{
+    font-size: 18px;
+    color: #dcdcdc;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
